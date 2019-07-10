@@ -116,7 +116,7 @@ def main():
     argp.add_argument('-v', '--verbose', action='count', default=0,
                       help='increase output verbosity (use up to 3 times)')
     argp.add_argument(
-        '-t', '--timeout', metavar='SECONDS', type=int, default=10,
+        '-t', '--timeout', metavar='SECONDS', type=int, default=60,
         help='Plugin timeout in seconds (default: %(default)s)')
     args = argp.parse_args()
 
